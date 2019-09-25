@@ -1,0 +1,56 @@
+body {
+	background-color: white;
+	background-image: url(background.png);
+	background-repeat: repeat-x;
+}
+
+h1 {
+	text-align: center;
+	font-family: comic sans ms;
+	color: darkblue;
+}
+
+h4 {
+	text-align: center;
+	font-family: arial;
+	font-style: italic;
+}
+
+h3 {
+	text-align: center;
+	font-variant: small-caps;
+}
+
+p {
+	text-indent: 50px;
+	font-family: verdana;
+}
+
+.p1 {
+	color: salmon;
+	text-align: center;
+}
+
+#p2 {
+	line-height: 25px;
+	text-align: center;
+	color: darkred;
+}
+
+.judul:link {
+	text-decoration: none;
+}
+
+.judul:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.link:link {
+	text-decoration: none;
+}
+
+.link:hover {
+	color: red;
+	text-decoration: underline;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 9</title>
+</head>
+<body>
+	<h1>Masukan Tulisan</h1>
+	<input type="text" id="tulisan">
+	<input type="button" value="cek" onclick="cekTulisan()">
+
+	<script>
+		function cekTulisan() {
+			var tulisanku = document.getElementById('tulisan').value;
+
+			alert("tesk yang and masukan adalah : " + tulisanku);
+
+			if (tulisanku == "") {
+				alert ("Teks Yang Anda Masukan Kosong")
+			} else {
+				alert ("Teks Yang Anda Masukan Adalah : " + tulisanku) 
+			}
+		}
+	</script>
+</body>
+</html>

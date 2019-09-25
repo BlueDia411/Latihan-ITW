@@ -1,0 +1,141 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+	background-image: url(gallery/vintage-concrete.png);
+}
+
+.lupanama {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 50px;
+	background-color: lightskyblue;
+	border-bottom: 3px solid red;
+	z-index: 999;
+}
+
+.container {
+	width: 1000px;
+	margin: 80px auto;
+	background-color: white;
+	position: relative;
+}
+
+.facebook {
+	width: 200px;
+	height: 200px;
+	background-image: url(gallery/social_media_icons_round_ribbon_icons_set_256x256_0000_facebook.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: -23px;
+	right: -20px;
+}
+
+.header {
+	padding: 20px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.header a {
+	text-decoration: none;
+	color: red;
+	padding: 3px;
+}
+
+.header  a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero {
+	height: 320px;
+	background-image: url(gallery/jurassic-world-wallpaper3-s1600x900-449824.jpg);
+	background-size: cover;
+	border-top: 5px solid red;
+	border-bottom: 5px solid lightskyblue;
+
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main h2 {
+	font-size: 22px;
+	font-weight: bold;
+
+}
+
+.main .penulis {
+	font-size: 11px;
+	margin-top: -5px;
+}
+
+.kenalan {
+	font-size: 12px;
+}
+
+.kotak {
+	margin: 10px 10px 10px 0px;
+	float: left;
+}
+
+#sidebar {
+	width: 180px;
+	float: right;
+}
+
+#sidebar .kenalan {
+
+}
+
+.clear {
+	clear: both;
+}
+
+#footer {
+	text-align: center;
+	background-color: #333;
+	font-family: verdana;
+	color: white;
+	width: 1000px;
+	height: 40px;
+	margin: 0px auto;
+	padding-top: 20px;
+}
+
+/* ClearFix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

@@ -1,0 +1,19 @@
+body {
+	background-color: white;
+	background-image: url(gallery/vintage-concrete.png);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+li {
+	color: white;
+}
+.link:link {
+	text-decoration: none;
+	color: white;
+}
+
+.link:hover {
+	color: red;
+	text-decoration: underline;
+}

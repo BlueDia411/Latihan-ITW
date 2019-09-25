@@ -1,0 +1,38 @@
+body{
+	font: 16px/28px arial, sans-serif;
+ 	color: white;
+	background-image: url(../images/1876679.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+.container{
+	width: 800px;
+  	margin: 160px auto auto auto;
+  	background-color: gray;
+	padding: 15px;
+	opacity: 0.8;
+}
+
+.container.judul {
+	font-size: 40px;
+  	font-weight: bold; 
+}
+
+.container h1 {
+	text-align: center;
+}
+
+.container ul li {
+	margin-top: 20px;
+  	margin-right: 10px;
+}
+
+.container a {
+	text-decoration: none;
+	color: salmon;
+}
+
+.container a:hover {
+	background-color: black;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Suit Jawa</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var tanya = true;
+		while( tanya ) {
+var pilihanuser = prompt('Silahkan Pilih Gajah, Semut, Orang ?')
+
+var pilihankomputer = Math.random();
+
+if( pilihankomputer < 0.34) {
+	pilihankomputer = 'gajah';
+} else if ((pilihankomputer >= 0.34) && (pilihankomputer < 0.67 )) {
+	pilihankomputer = 'orang';
+} else {
+	pilihankomputer = 'semut';
+}
+
+var hasil = '';
+if( pilihanuser == pilihankomputer) {
+	hasil = 'SERIII!!!';
+} else if (pilihanuser == 'gajah') {
+	hasil = (pilihankomputer == 'orang') ? 'MENANGGG!!!' : 'KALAHH~';
+} else if (pilihanuser == 'orang') {
+	hasil = (pilihankomputer == 'gajah') ? 'KALAHH~' : 'MENANGGG!!!';
+} else if (pilihanuser == 'semut') {
+	hasil = (pilihankomputer == 'orang') ? 'KALAHH~' : 'MENANGGG!!!';
+} else {
+	hasil = 'memasukan Pilihan Yang salah!!';
+}
+
+alert('Kamu Memilih :' + pilihanuser + 'Dan Komputer Memilih : ' + pilihankomputer + '\nMaka Hasilnya : Kamu' + hasil);
+
+	tanya = confirm('lagi?');
+}
+
+alert('Terimakasih Sudah Bermain')
+	</script>
+
+</body>
+</html>

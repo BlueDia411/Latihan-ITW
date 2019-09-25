@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 9B</title>
+</head>
+<body>
+	<h1>Pilih Link</h1>
+	<form>
+		<select name="myLink" id="myLink" onchange="pilihLink()">
+			<option>Pilih Link</option>
+			<option value="http://google.com">Google.com</option>
+			<option value="http://teknik.unpas.ac.id">Website Teknik Unpas</option>
+			<option value="http://facebook.com">Facebook</option>
+			<option value="https://gmail.com">Gmail</option>
+			<option value="http://youtube.com">YouTube</option>
+			<option value=""></option>
+		</select>
+	</form>
+
+	<script>
+		function pilihLink() {
+			var linkTerpilih = document.getElementById('myLink').value;
+			document.location.href = linkTerpilih;
+
+			if (linkTerpilih == "") {
+				alert("Link Yang Anda masukan Kosong")
+			} else {
+				alert ("Link yang anda pilih adalah : " + linkTerpilih )
+			}
+		}
+	</script>
+</body>
+</html>
